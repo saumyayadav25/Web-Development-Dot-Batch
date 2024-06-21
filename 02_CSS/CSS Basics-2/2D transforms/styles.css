@@ -1,0 +1,26 @@
+.box{
+    background-color: aqua;
+    transform: translate(100px, 30px);
+    transform: translateX(100px);
+    transform: translateY(30px);
+
+    transform: rotate(-45deg);  
+
+    margin:200px;
+    transform: scale(1.5,3);
+    transform: scaleX(2);
+    transform: scaleY(3);
+
+    transform: skew(20deg);
+}
+
+div {
+    width: 80px;
+    height: 80px;
+    background-color: skyblue;
+}
+
+.changed{
+    transform: matrix(1, 2, -1, 1, 80, 10);
+    background-color: pink;
+}
