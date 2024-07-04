@@ -398,7 +398,6 @@ h5 {
 }
 
 /*media queries*/
-
 @media screen and (max-width:991px){
   .section{
     margin:0 auto;
